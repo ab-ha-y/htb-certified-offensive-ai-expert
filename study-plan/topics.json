@@ -1,0 +1,765 @@
+[
+  {
+    "module": "Module 1: Fundamentals of AI",
+    "module_dir": "01-fundamentals-of-ai",
+    "title": "Introduction to Machine Learning",
+    "path": "01-fundamentals-of-ai/01-introduction-to-machine-learning/introduction-to-machine-learning.md",
+    "day": 1
+  },
+  {
+    "module": "Module 1: Fundamentals of AI",
+    "module_dir": "01-fundamentals-of-ai",
+    "title": "Supervised Learning Algorithms (Overview)",
+    "path": "01-fundamentals-of-ai/02-supervised-learning-algorithms/supervised-learning-algorithms.md",
+    "day": 2
+  },
+  {
+    "module": "Module 1: Fundamentals of AI",
+    "module_dir": "01-fundamentals-of-ai",
+    "title": "Linear Regression",
+    "path": "01-fundamentals-of-ai/02-supervised-learning-algorithms/linear-regression.md",
+    "day": 3
+  },
+  {
+    "module": "Module 1: Fundamentals of AI",
+    "module_dir": "01-fundamentals-of-ai",
+    "title": "Logistic Regression",
+    "path": "01-fundamentals-of-ai/02-supervised-learning-algorithms/logistic-regression.md",
+    "day": 4
+  },
+  {
+    "module": "Module 1: Fundamentals of AI",
+    "module_dir": "01-fundamentals-of-ai",
+    "title": "Decision Trees",
+    "path": "01-fundamentals-of-ai/02-supervised-learning-algorithms/decision-trees.md",
+    "day": 5
+  },
+  {
+    "module": "Module 1: Fundamentals of AI",
+    "module_dir": "01-fundamentals-of-ai",
+    "title": "Naive Bayes",
+    "path": "01-fundamentals-of-ai/02-supervised-learning-algorithms/naive-bayes.md",
+    "day": 6
+  },
+  {
+    "module": "Module 1: Fundamentals of AI",
+    "module_dir": "01-fundamentals-of-ai",
+    "title": "Support Vector Machines (SVMs)",
+    "path": "01-fundamentals-of-ai/02-supervised-learning-algorithms/support-vector-machines.md",
+    "day": 7
+  },
+  {
+    "module": "Module 1: Fundamentals of AI",
+    "module_dir": "01-fundamentals-of-ai",
+    "title": "Unsupervised Learning Algorithms (Overview)",
+    "path": "01-fundamentals-of-ai/03-unsupervised-learning-algorithms/unsupervised-learning-algorithms.md",
+    "day": 8
+  },
+  {
+    "module": "Module 1: Fundamentals of AI",
+    "module_dir": "01-fundamentals-of-ai",
+    "title": "K-Means Clustering",
+    "path": "01-fundamentals-of-ai/03-unsupervised-learning-algorithms/k-means-clustering.md",
+    "day": 9
+  },
+  {
+    "module": "Module 1: Fundamentals of AI",
+    "module_dir": "01-fundamentals-of-ai",
+    "title": "Principal Component Analysis (PCA)",
+    "path": "01-fundamentals-of-ai/03-unsupervised-learning-algorithms/principal-component-analysis.md",
+    "day": 10
+  },
+  {
+    "module": "Module 1: Fundamentals of AI",
+    "module_dir": "01-fundamentals-of-ai",
+    "title": "Anomaly Detection",
+    "path": "01-fundamentals-of-ai/03-unsupervised-learning-algorithms/anomaly-detection.md",
+    "day": 11
+  },
+  {
+    "module": "Module 1: Fundamentals of AI",
+    "module_dir": "01-fundamentals-of-ai",
+    "title": "Reinforcement Learning Algorithms (Overview)",
+    "path": "01-fundamentals-of-ai/04-reinforcement-learning-algorithms/reinforcement-learning-algorithms.md",
+    "day": 12
+  },
+  {
+    "module": "Module 1: Fundamentals of AI",
+    "module_dir": "01-fundamentals-of-ai",
+    "title": "Q-Learning",
+    "path": "01-fundamentals-of-ai/04-reinforcement-learning-algorithms/q-learning.md",
+    "day": 13
+  },
+  {
+    "module": "Module 1: Fundamentals of AI",
+    "module_dir": "01-fundamentals-of-ai",
+    "title": "SARSA (State-Action-Reward-State-Action)",
+    "path": "01-fundamentals-of-ai/04-reinforcement-learning-algorithms/sarsa.md",
+    "day": 14
+  },
+  {
+    "module": "Module 1: Fundamentals of AI",
+    "module_dir": "01-fundamentals-of-ai",
+    "title": "Introduction to Deep Learning",
+    "path": "01-fundamentals-of-ai/05-introduction-to-deep-learning/introduction-to-deep-learning.md",
+    "day": 15
+  },
+  {
+    "module": "Module 1: Fundamentals of AI",
+    "module_dir": "01-fundamentals-of-ai",
+    "title": "Perceptrons",
+    "path": "01-fundamentals-of-ai/05-introduction-to-deep-learning/perceptrons.md",
+    "day": 16
+  },
+  {
+    "module": "Module 1: Fundamentals of AI",
+    "module_dir": "01-fundamentals-of-ai",
+    "title": "Neural Networks",
+    "path": "01-fundamentals-of-ai/05-introduction-to-deep-learning/neural-networks.md",
+    "day": 17
+  },
+  {
+    "module": "Module 1: Fundamentals of AI",
+    "module_dir": "01-fundamentals-of-ai",
+    "title": "Convolutional Neural Networks (CNNs)",
+    "path": "01-fundamentals-of-ai/05-introduction-to-deep-learning/convolutional-neural-networks.md",
+    "day": 18
+  },
+  {
+    "module": "Module 1: Fundamentals of AI",
+    "module_dir": "01-fundamentals-of-ai",
+    "title": "Recurrent Neural Networks (RNNs)",
+    "path": "01-fundamentals-of-ai/05-introduction-to-deep-learning/recurrent-neural-networks.md",
+    "day": 19
+  },
+  {
+    "module": "Module 1: Fundamentals of AI",
+    "module_dir": "01-fundamentals-of-ai",
+    "title": "Introduction to Generative AI",
+    "path": "01-fundamentals-of-ai/06-introduction-to-generative-ai/introduction-to-generative-ai.md",
+    "day": 20
+  },
+  {
+    "module": "Module 1: Fundamentals of AI",
+    "module_dir": "01-fundamentals-of-ai",
+    "title": "Large Language Models (LLMs)",
+    "path": "01-fundamentals-of-ai/06-introduction-to-generative-ai/large-language-models.md",
+    "day": 21
+  },
+  {
+    "module": "Module 1: Fundamentals of AI",
+    "module_dir": "01-fundamentals-of-ai",
+    "title": "Diffusion Models",
+    "path": "01-fundamentals-of-ai/06-introduction-to-generative-ai/diffusion-models.md",
+    "day": 22
+  },
+  {
+    "module": "Module 2: Applications of AI in InfoSec",
+    "module_dir": "02-applications-of-ai-in-infosec",
+    "title": "Environment Setup",
+    "path": "02-applications-of-ai-in-infosec/01-environment-and-tooling/environment-setup.md",
+    "day": 23
+  },
+  {
+    "module": "Module 2: Applications of AI in InfoSec",
+    "module_dir": "02-applications-of-ai-in-infosec",
+    "title": "Python Libraries for ML",
+    "path": "02-applications-of-ai-in-infosec/01-environment-and-tooling/python-libraries-for-ml.md",
+    "day": 24
+  },
+  {
+    "module": "Module 2: Applications of AI in InfoSec",
+    "module_dir": "02-applications-of-ai-in-infosec",
+    "title": "Datasets",
+    "path": "02-applications-of-ai-in-infosec/02-working-with-data/datasets.md",
+    "day": 25
+  },
+  {
+    "module": "Module 2: Applications of AI in InfoSec",
+    "module_dir": "02-applications-of-ai-in-infosec",
+    "title": "Data Preprocessing",
+    "path": "02-applications-of-ai-in-infosec/02-working-with-data/data-preprocessing.md",
+    "day": 26
+  },
+  {
+    "module": "Module 2: Applications of AI in InfoSec",
+    "module_dir": "02-applications-of-ai-in-infosec",
+    "title": "Data Transformation",
+    "path": "02-applications-of-ai-in-infosec/02-working-with-data/data-transformation.md",
+    "day": 27
+  },
+  {
+    "module": "Module 2: Applications of AI in InfoSec",
+    "module_dir": "02-applications-of-ai-in-infosec",
+    "title": "Spam Classification",
+    "path": "02-applications-of-ai-in-infosec/03-applied-security-projects/spam-classification.md",
+    "day": 28
+  },
+  {
+    "module": "Module 2: Applications of AI in InfoSec",
+    "module_dir": "02-applications-of-ai-in-infosec",
+    "title": "Network Anomaly Detection",
+    "path": "02-applications-of-ai-in-infosec/03-applied-security-projects/network-anomaly-detection.md",
+    "day": 29
+  },
+  {
+    "module": "Module 2: Applications of AI in InfoSec",
+    "module_dir": "02-applications-of-ai-in-infosec",
+    "title": "Malware Classification",
+    "path": "02-applications-of-ai-in-infosec/03-applied-security-projects/malware-classification.md",
+    "day": 30
+  },
+  {
+    "module": "Module 3: Introduction to Red Teaming AI",
+    "module_dir": "03-introduction-to-red-teaming-ai",
+    "title": "OWASP Machine Learning Security Top 10",
+    "path": "03-introduction-to-red-teaming-ai/01-owasp-top-10-for-ml/ml-owasp-top-10.md",
+    "day": 31
+  },
+  {
+    "module": "Module 3: Introduction to Red Teaming AI",
+    "module_dir": "03-introduction-to-red-teaming-ai",
+    "title": "OWASP Top 10 for LLM Applications",
+    "path": "03-introduction-to-red-teaming-ai/02-owasp-top-10-for-llm/llm-owasp-top-10.md",
+    "day": 32
+  },
+  {
+    "module": "Module 3: Introduction to Red Teaming AI",
+    "module_dir": "03-introduction-to-red-teaming-ai",
+    "title": "Secure AI Framework (SAIF)",
+    "path": "03-introduction-to-red-teaming-ai/03-secure-ai-framework-saif/secure-ai-framework-saif.md",
+    "day": 33
+  },
+  {
+    "module": "Module 3: Introduction to Red Teaming AI",
+    "module_dir": "03-introduction-to-red-teaming-ai",
+    "title": "Model Component Attacks",
+    "path": "03-introduction-to-red-teaming-ai/04-attack-surface-by-component/01-model-component-attacks.md",
+    "day": 34
+  },
+  {
+    "module": "Module 3: Introduction to Red Teaming AI",
+    "module_dir": "03-introduction-to-red-teaming-ai",
+    "title": "Data Component Attacks",
+    "path": "03-introduction-to-red-teaming-ai/04-attack-surface-by-component/02-data-component-attacks.md",
+    "day": 35
+  },
+  {
+    "module": "Module 3: Introduction to Red Teaming AI",
+    "module_dir": "03-introduction-to-red-teaming-ai",
+    "title": "Application Component Attacks",
+    "path": "03-introduction-to-red-teaming-ai/04-attack-surface-by-component/03-application-component-attacks.md",
+    "day": 36
+  },
+  {
+    "module": "Module 3: Introduction to Red Teaming AI",
+    "module_dir": "03-introduction-to-red-teaming-ai",
+    "title": "System Component Attacks",
+    "path": "03-introduction-to-red-teaming-ai/04-attack-surface-by-component/04-system-component-attacks.md",
+    "day": 37
+  },
+  {
+    "module": "Module 4: Prompt Injection Attacks",
+    "module_dir": "04-prompt-injection-attacks",
+    "title": "Direct Prompt Injection (Overview)",
+    "path": "04-prompt-injection-attacks/01-direct-prompt-injection/direct-prompt-injection.md",
+    "day": 38
+  },
+  {
+    "module": "Module 4: Prompt Injection Attacks",
+    "module_dir": "04-prompt-injection-attacks",
+    "title": "Instruction Override",
+    "path": "04-prompt-injection-attacks/01-direct-prompt-injection/instruction-override.md",
+    "day": 39
+  },
+  {
+    "module": "Module 4: Prompt Injection Attacks",
+    "module_dir": "04-prompt-injection-attacks",
+    "title": "Delimiter Confusion",
+    "path": "04-prompt-injection-attacks/01-direct-prompt-injection/delimiter-confusion.md",
+    "day": 40
+  },
+  {
+    "module": "Module 4: Prompt Injection Attacks",
+    "module_dir": "04-prompt-injection-attacks",
+    "title": "Role-Play and Persona Tricks",
+    "path": "04-prompt-injection-attacks/01-direct-prompt-injection/role-play-persona-tricks.md",
+    "day": 41
+  },
+  {
+    "module": "Module 4: Prompt Injection Attacks",
+    "module_dir": "04-prompt-injection-attacks",
+    "title": "Payload Obfuscation",
+    "path": "04-prompt-injection-attacks/01-direct-prompt-injection/payload-obfuscation.md",
+    "day": 42
+  },
+  {
+    "module": "Module 4: Prompt Injection Attacks",
+    "module_dir": "04-prompt-injection-attacks",
+    "title": "Indirect Prompt Injection (Overview)",
+    "path": "04-prompt-injection-attacks/02-indirect-prompt-injection/indirect-prompt-injection.md",
+    "day": 43
+  },
+  {
+    "module": "Module 4: Prompt Injection Attacks",
+    "module_dir": "04-prompt-injection-attacks",
+    "title": "Indirect Injection Vectors",
+    "path": "04-prompt-injection-attacks/02-indirect-prompt-injection/indirect-injection-vectors.md",
+    "day": 44
+  },
+  {
+    "module": "Module 4: Prompt Injection Attacks",
+    "module_dir": "04-prompt-injection-attacks",
+    "title": "Jailbreaking (Overview)",
+    "path": "04-prompt-injection-attacks/03-jailbreaking/jailbreaking.md",
+    "day": 45
+  },
+  {
+    "module": "Module 4: Prompt Injection Attacks",
+    "module_dir": "04-prompt-injection-attacks",
+    "title": "DAN-Style Persona Jailbreaks",
+    "path": "04-prompt-injection-attacks/03-jailbreaking/dan-persona-jailbreaks.md",
+    "day": 46
+  },
+  {
+    "module": "Module 4: Prompt Injection Attacks",
+    "module_dir": "04-prompt-injection-attacks",
+    "title": "Hypothetical and Fictional Framing",
+    "path": "04-prompt-injection-attacks/03-jailbreaking/hypothetical-fictional-framing.md",
+    "day": 47
+  },
+  {
+    "module": "Module 4: Prompt Injection Attacks",
+    "module_dir": "04-prompt-injection-attacks",
+    "title": "Multi-Turn Escalation (Crescendo)",
+    "path": "04-prompt-injection-attacks/03-jailbreaking/multi-turn-escalation-crescendo.md",
+    "day": 48
+  },
+  {
+    "module": "Module 4: Prompt Injection Attacks",
+    "module_dir": "04-prompt-injection-attacks",
+    "title": "Token Smuggling",
+    "path": "04-prompt-injection-attacks/03-jailbreaking/token-smuggling.md",
+    "day": 49
+  },
+  {
+    "module": "Module 4: Prompt Injection Attacks",
+    "module_dir": "04-prompt-injection-attacks",
+    "title": "Many-Shot Jailbreaking",
+    "path": "04-prompt-injection-attacks/03-jailbreaking/many-shot-jailbreaking.md",
+    "day": 50
+  },
+  {
+    "module": "Module 4: Prompt Injection Attacks",
+    "module_dir": "04-prompt-injection-attacks",
+    "title": "Mitigations",
+    "path": "04-prompt-injection-attacks/04-mitigations/mitigations.md",
+    "day": 51
+  },
+  {
+    "module": "Module 5: LLM Output Attacks",
+    "module_dir": "05-llm-output-attacks",
+    "title": "Cross-Site Scripting via LLM Output",
+    "path": "05-llm-output-attacks/01-cross-site-scripting-via-llm-output/cross-site-scripting-via-llm-output.md",
+    "day": 52
+  },
+  {
+    "module": "Module 5: LLM Output Attacks",
+    "module_dir": "05-llm-output-attacks",
+    "title": "SQL Injection through LLM-Generated Queries",
+    "path": "05-llm-output-attacks/02-sql-injection-through-llm-generated-queries/sql-injection-through-llm-generated-queries.md",
+    "day": 53
+  },
+  {
+    "module": "Module 5: LLM Output Attacks",
+    "module_dir": "05-llm-output-attacks",
+    "title": "Command Injection via LLM Outputs",
+    "path": "05-llm-output-attacks/03-command-injection-via-llm-outputs/command-injection-via-llm-outputs.md",
+    "day": 54
+  },
+  {
+    "module": "Module 5: LLM Output Attacks",
+    "module_dir": "05-llm-output-attacks",
+    "title": "Function Calling / Tool Use Attacks",
+    "path": "05-llm-output-attacks/04-function-calling-tool-use-attacks/function-calling-tool-use-attacks.md",
+    "day": 55
+  },
+  {
+    "module": "Module 5: LLM Output Attacks",
+    "module_dir": "05-llm-output-attacks",
+    "title": "Exfiltration Attacks",
+    "path": "05-llm-output-attacks/05-exfiltration-attacks/exfiltration-attacks.md",
+    "day": 56
+  },
+  {
+    "module": "Module 5: LLM Output Attacks",
+    "module_dir": "05-llm-output-attacks",
+    "title": "LLM Hallucination as a Security Issue",
+    "path": "05-llm-output-attacks/06-llm-hallucination-as-security-issue/llm-hallucination-as-security-issue.md",
+    "day": 57
+  },
+  {
+    "module": "Module 5: LLM Output Attacks",
+    "module_dir": "05-llm-output-attacks",
+    "title": "Abuse Attacks",
+    "path": "05-llm-output-attacks/07-abuse-attacks/abuse-attacks.md",
+    "day": 58
+  },
+  {
+    "module": "Module 5: LLM Output Attacks",
+    "module_dir": "05-llm-output-attacks",
+    "title": "Safeguard Case Studies and Legislative/Regulatory Landscape",
+    "path": "05-llm-output-attacks/08-safeguard-case-studies-and-regulatory-landscape/safeguard-case-studies-and-regulatory-landscape.md",
+    "day": 59
+  },
+  {
+    "module": "Module 6: AI Data Attacks",
+    "module_dir": "06-ai-data-attacks",
+    "title": "Data Poisoning (Overview)",
+    "path": "06-ai-data-attacks/01-data-poisoning/data-poisoning.md",
+    "day": 60
+  },
+  {
+    "module": "Module 6: AI Data Attacks",
+    "module_dir": "06-ai-data-attacks",
+    "title": "Label Flipping",
+    "path": "06-ai-data-attacks/01-data-poisoning/label-flipping.md",
+    "day": 61
+  },
+  {
+    "module": "Module 6: AI Data Attacks",
+    "module_dir": "06-ai-data-attacks",
+    "title": "Targeted Label Attacks",
+    "path": "06-ai-data-attacks/01-data-poisoning/targeted-label-attacks.md",
+    "day": 62
+  },
+  {
+    "module": "Module 6: AI Data Attacks",
+    "module_dir": "06-ai-data-attacks",
+    "title": "Clean-Label Attacks",
+    "path": "06-ai-data-attacks/02-feature-attacks/clean-label-attacks.md",
+    "day": 63
+  },
+  {
+    "module": "Module 6: AI Data Attacks",
+    "module_dir": "06-ai-data-attacks",
+    "title": "Trojan / Backdoor Attacks",
+    "path": "06-ai-data-attacks/03-trojan-backdoor-attacks/trojan-backdoor-attacks.md",
+    "day": 64
+  },
+  {
+    "module": "Module 6: AI Data Attacks",
+    "module_dir": "06-ai-data-attacks",
+    "title": "Tensor Steganography",
+    "path": "06-ai-data-attacks/04-tensor-steganography/tensor-steganography.md",
+    "day": 65
+  },
+  {
+    "module": "Module 6: AI Data Attacks",
+    "module_dir": "06-ai-data-attacks",
+    "title": "Model Artifact Exploitation",
+    "path": "06-ai-data-attacks/05-model-artifact-exploitation/model-artifact-exploitation.md",
+    "day": 66
+  },
+  {
+    "module": "Module 7: Attacking AI - Application and System",
+    "module_dir": "07-attacking-ai-application-and-system",
+    "title": "Model Reverse Engineering",
+    "path": "07-attacking-ai-application-and-system/01-model-reverse-engineering/model-reverse-engineering.md",
+    "day": 67
+  },
+  {
+    "module": "Module 7: Attacking AI - Application and System",
+    "module_dir": "07-attacking-ai-application-and-system",
+    "title": "Denial of ML Service",
+    "path": "07-attacking-ai-application-and-system/02-denial-of-ml-service/denial-of-ml-service.md",
+    "day": 68
+  },
+  {
+    "module": "Module 7: Attacking AI - Application and System",
+    "module_dir": "07-attacking-ai-application-and-system",
+    "title": "Insecure Integrated Components",
+    "path": "07-attacking-ai-application-and-system/03-insecure-integrated-components/insecure-integrated-components.md",
+    "day": 69
+  },
+  {
+    "module": "Module 7: Attacking AI - Application and System",
+    "module_dir": "07-attacking-ai-application-and-system",
+    "title": "Rogue Actions",
+    "path": "07-attacking-ai-application-and-system/04-rogue-actions/rogue-actions.md",
+    "day": 70
+  },
+  {
+    "module": "Module 7: Attacking AI - Application and System",
+    "module_dir": "07-attacking-ai-application-and-system",
+    "title": "Excessive Data Handling & Insecure Storage",
+    "path": "07-attacking-ai-application-and-system/05-excessive-data-handling-and-insecure-storage/excessive-data-handling-and-insecure-storage.md",
+    "day": 71
+  },
+  {
+    "module": "Module 7: Attacking AI - Application and System",
+    "module_dir": "07-attacking-ai-application-and-system",
+    "title": "Model Deployment Tampering",
+    "path": "07-attacking-ai-application-and-system/06-model-deployment-tampering/model-deployment-tampering.md",
+    "day": 72
+  },
+  {
+    "module": "Module 7: Attacking AI - Application and System",
+    "module_dir": "07-attacking-ai-application-and-system",
+    "title": "Vulnerable Framework Code",
+    "path": "07-attacking-ai-application-and-system/07-vulnerable-framework-code/vulnerable-framework-code.md",
+    "day": 73
+  },
+  {
+    "module": "Module 7: Attacking AI - Application and System",
+    "module_dir": "07-attacking-ai-application-and-system",
+    "title": "Model Context Protocol (MCP) Attacks",
+    "path": "07-attacking-ai-application-and-system/08-model-context-protocol-mcp-attacks/model-context-protocol-mcp-attacks.md",
+    "day": 74
+  },
+  {
+    "module": "Module 8: AI Evasion - Foundations",
+    "module_dir": "08-ai-evasion-foundations",
+    "title": "White-box vs Black-box Attacks",
+    "path": "08-ai-evasion-foundations/01-white-box-vs-black-box-attacks/white-box-vs-black-box-attacks.md",
+    "day": 75
+  },
+  {
+    "module": "Module 8: AI Evasion - Foundations",
+    "module_dir": "08-ai-evasion-foundations",
+    "title": "Transferability",
+    "path": "08-ai-evasion-foundations/02-transferability/transferability.md",
+    "day": 76
+  },
+  {
+    "module": "Module 8: AI Evasion - Foundations",
+    "module_dir": "08-ai-evasion-foundations",
+    "title": "Feature Obfuscation (GoodWords Attack Methodology)",
+    "path": "08-ai-evasion-foundations/03-feature-obfuscation-goodwords-attack/feature-obfuscation-goodwords-attack.md",
+    "day": 77
+  },
+  {
+    "module": "Module 9: AI Evasion - First-Order Attacks",
+    "module_dir": "09-ai-evasion-first-order-attacks",
+    "title": "Norm Constraints (L0, L1, L2, L-infinity)",
+    "path": "09-ai-evasion-first-order-attacks/01-foundations-of-first-order-attacks/norm-constraints.md",
+    "day": 78
+  },
+  {
+    "module": "Module 9: AI Evasion - First-Order Attacks",
+    "module_dir": "09-ai-evasion-first-order-attacks",
+    "title": "The Local Linearity Assumption",
+    "path": "09-ai-evasion-first-order-attacks/01-foundations-of-first-order-attacks/local-linearity-assumption.md",
+    "day": 79
+  },
+  {
+    "module": "Module 9: AI Evasion - First-Order Attacks",
+    "module_dir": "09-ai-evasion-first-order-attacks",
+    "title": "High-Dimensional Effects",
+    "path": "09-ai-evasion-first-order-attacks/01-foundations-of-first-order-attacks/high-dimensional-effects.md",
+    "day": 80
+  },
+  {
+    "module": "Module 9: AI Evasion - First-Order Attacks",
+    "module_dir": "09-ai-evasion-first-order-attacks",
+    "title": "FGSM: The Fast Gradient Sign Method",
+    "path": "09-ai-evasion-first-order-attacks/02-fgsm/fgsm.md",
+    "day": 81
+  },
+  {
+    "module": "Module 9: AI Evasion - First-Order Attacks",
+    "module_dir": "09-ai-evasion-first-order-attacks",
+    "title": "Targeted FGSM",
+    "path": "09-ai-evasion-first-order-attacks/03-targeted-fgsm/targeted-fgsm.md",
+    "day": 82
+  },
+  {
+    "module": "Module 9: AI Evasion - First-Order Attacks",
+    "module_dir": "09-ai-evasion-first-order-attacks",
+    "title": "I-FGSM: Iterative Fast Gradient Sign Method",
+    "path": "09-ai-evasion-first-order-attacks/04-i-fgsm/i-fgsm.md",
+    "day": 83
+  },
+  {
+    "module": "Module 9: AI Evasion - First-Order Attacks",
+    "module_dir": "09-ai-evasion-first-order-attacks",
+    "title": "DeepFool: Finding the Nearest Decision Boundary",
+    "path": "09-ai-evasion-first-order-attacks/05-deepfool/deepfool.md",
+    "day": 84
+  },
+  {
+    "module": "Module 10: AI Evasion - Sparsity Attacks",
+    "module_dir": "10-ai-evasion-sparsity-attacks",
+    "title": "L0 Budgets",
+    "path": "10-ai-evasion-sparsity-attacks/01-l0-budgets/l0-budgets.md",
+    "day": 85
+  },
+  {
+    "module": "Module 10: AI Evasion - Sparsity Attacks",
+    "module_dir": "10-ai-evasion-sparsity-attacks",
+    "title": "L1-Induced Sparsity",
+    "path": "10-ai-evasion-sparsity-attacks/02-l1-induced-sparsity/l1-induced-sparsity.md",
+    "day": 86
+  },
+  {
+    "module": "Module 10: AI Evasion - Sparsity Attacks",
+    "module_dir": "10-ai-evasion-sparsity-attacks",
+    "title": "Saliency-Based Feature Selection",
+    "path": "10-ai-evasion-sparsity-attacks/03-saliency-based-feature-selection/saliency-based-feature-selection.md",
+    "day": 87
+  },
+  {
+    "module": "Module 10: AI Evasion - Sparsity Attacks",
+    "module_dir": "10-ai-evasion-sparsity-attacks",
+    "title": "ElasticNet Attack (EAD)",
+    "path": "10-ai-evasion-sparsity-attacks/04-elasticnet-attack-ead/elasticnet-attack-ead.md",
+    "day": 88
+  },
+  {
+    "module": "Module 10: AI Evasion - Sparsity Attacks",
+    "module_dir": "10-ai-evasion-sparsity-attacks",
+    "title": "FISTA Optimization",
+    "path": "10-ai-evasion-sparsity-attacks/05-fista-optimization/fista-optimization.md",
+    "day": 89
+  },
+  {
+    "module": "Module 10: AI Evasion - Sparsity Attacks",
+    "module_dir": "10-ai-evasion-sparsity-attacks",
+    "title": "JSMA (Jacobian-based Saliency Map Attack)",
+    "path": "10-ai-evasion-sparsity-attacks/06-jsma/jsma.md",
+    "day": 90
+  },
+  {
+    "module": "Module 10: AI Evasion - Sparsity Attacks",
+    "module_dir": "10-ai-evasion-sparsity-attacks",
+    "title": "Single-Pixel and Pairwise Variants",
+    "path": "10-ai-evasion-sparsity-attacks/07-single-pixel-and-pairwise-variants/single-pixel-and-pairwise-variants.md",
+    "day": 91
+  },
+  {
+    "module": "Module 11: AI Privacy",
+    "module_dir": "11-ai-privacy",
+    "title": "Membership Inference Attacks",
+    "path": "11-ai-privacy/01-membership-inference-attacks/membership-inference-attacks.md",
+    "day": 92
+  },
+  {
+    "module": "Module 11: AI Privacy",
+    "module_dir": "11-ai-privacy",
+    "title": "Differential Privacy Fundamentals",
+    "path": "11-ai-privacy/02-differential-privacy-fundamentals/differential-privacy-fundamentals.md",
+    "day": 93
+  },
+  {
+    "module": "Module 11: AI Privacy",
+    "module_dir": "11-ai-privacy",
+    "title": "DP-SGD (Differentially Private Stochastic Gradient Descent)",
+    "path": "11-ai-privacy/03-dp-sgd/dp-sgd.md",
+    "day": 94
+  },
+  {
+    "module": "Module 11: AI Privacy",
+    "module_dir": "11-ai-privacy",
+    "title": "PATE (Private Aggregation of Teacher Ensembles)",
+    "path": "11-ai-privacy/04-pate/pate.md",
+    "day": 95
+  },
+  {
+    "module": "Module 11: AI Privacy",
+    "module_dir": "11-ai-privacy",
+    "title": "Privacy-Utility Tradeoffs",
+    "path": "11-ai-privacy/05-privacy-utility-tradeoffs/privacy-utility-tradeoffs.md",
+    "day": 96
+  },
+  {
+    "module": "Module 12: AI Defense",
+    "module_dir": "12-ai-defense",
+    "title": "Character-Based Validation",
+    "path": "12-ai-defense/01-llm-guardrails/01-character-based-validation.md",
+    "day": 97
+  },
+  {
+    "module": "Module 12: AI Defense",
+    "module_dir": "12-ai-defense",
+    "title": "Content-Based Validation",
+    "path": "12-ai-defense/01-llm-guardrails/02-content-based-validation.md",
+    "day": 98
+  },
+  {
+    "module": "Module 12: AI Defense",
+    "module_dir": "12-ai-defense",
+    "title": "AI-Based Guardrails",
+    "path": "12-ai-defense/01-llm-guardrails/03-ai-based-guardrails.md",
+    "day": 99
+  },
+  {
+    "module": "Module 12: AI Defense",
+    "module_dir": "12-ai-defense",
+    "title": "Guardrail Tooling Landscape",
+    "path": "12-ai-defense/01-llm-guardrails/04-guardrail-tooling-landscape.md",
+    "day": 100
+  },
+  {
+    "module": "Module 12: AI Defense",
+    "module_dir": "12-ai-defense",
+    "title": "Adversarial Training",
+    "path": "12-ai-defense/02-model-level-defenses/01-adversarial-training.md",
+    "day": 101
+  },
+  {
+    "module": "Module 12: AI Defense",
+    "module_dir": "12-ai-defense",
+    "title": "Adversarial Fine-Tuning",
+    "path": "12-ai-defense/02-model-level-defenses/02-adversarial-fine-tuning.md",
+    "day": 102
+  },
+  {
+    "module": "Module 12: AI Defense",
+    "module_dir": "12-ai-defense",
+    "title": "System Prompt Hardening",
+    "path": "12-ai-defense/03-jailbreak-mitigation/01-system-prompt-hardening.md",
+    "day": 103
+  },
+  {
+    "module": "Module 12: AI Defense",
+    "module_dir": "12-ai-defense",
+    "title": "Refusal Training",
+    "path": "12-ai-defense/03-jailbreak-mitigation/02-refusal-training.md",
+    "day": 104
+  },
+  {
+    "module": "Module 12: AI Defense",
+    "module_dir": "12-ai-defense",
+    "title": "Multi-Turn Conversation Monitoring and Canary Tokens",
+    "path": "12-ai-defense/03-jailbreak-mitigation/03-multi-turn-monitoring-and-canary-tokens.md",
+    "day": 105
+  },
+  {
+    "module": "Module 12: AI Defense",
+    "module_dir": "12-ai-defense",
+    "title": "Multi-Modal Injection",
+    "path": "12-ai-defense/04-advanced-prompt-injection-tactics/01-multimodal-injection.md",
+    "day": 106
+  },
+  {
+    "module": "Module 12: AI Defense",
+    "module_dir": "12-ai-defense",
+    "title": "Injection via Tool Outputs",
+    "path": "12-ai-defense/04-advanced-prompt-injection-tactics/02-injection-via-tool-outputs.md",
+    "day": 107
+  },
+  {
+    "module": "Module 12: AI Defense",
+    "module_dir": "12-ai-defense",
+    "title": "Adaptive Guardrail Probing",
+    "path": "12-ai-defense/04-advanced-prompt-injection-tactics/03-adaptive-guardrail-probing.md",
+    "day": 108
+  },
+  {
+    "module": "Module 12: AI Defense",
+    "module_dir": "12-ai-defense",
+    "title": "Course Complete -- Exam Readiness",
+    "path": "12-ai-defense/04-advanced-prompt-injection-tactics/04-course-complete-exam-readiness.md",
+    "day": 109
+  }
+]
