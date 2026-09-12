@@ -1,7 +1,53 @@
 {
-  "topic_cursor": 0,
-  "session_count": 0,
+  "topic_cursor": 1,
+  "session_count": 1,
   "review_every_n_sessions": 7,
-  "pending_quiz": null,
-  "history": []
+  "pending_quiz": {
+    "day": 1,
+    "mode": "new_topic",
+    "questions": [
+      {
+        "q": "A traditional antivirus uses a rule someone wrote by hand: 'if file contains this exact byte sequence, flag as malware.' A machine-learned malware classifier works differently. What's the key difference?",
+        "choices": {
+          "A": "The ML classifier is just a faster version of the same hand-written rules",
+          "B": "The ML classifier learned its own detection patterns from thousands of labeled malware/benign examples, instead of a human writing the rules",
+          "C": "The ML classifier only works on image files, never on executables",
+          "D": "There is no real difference, it's just marketing"
+        },
+        "correct": "B",
+        "explanation": "That's the core shift from Section 5 of the card: traditional programming = human writes rules; ML = human provides data + labels, the algorithm discovers the rules itself."
+      },
+      {
+        "q": "A malware detector is tested on 1,000 files (100 malware, 900 benign). It flags 0 files as malware at all. What's true about its accuracy and its usefulness?",
+        "choices": {
+          "A": "Accuracy is 0% and the model is clearly broken",
+          "B": "Accuracy is 90% (technically), but it's useless -- it caught zero real malware",
+          "C": "Accuracy is 100% because it never raised a false alarm",
+          "D": "This scenario is impossible for a real model"
+        },
+        "correct": "B",
+        "explanation": "This is the exact 'accuracy can lie' trap from the card: 900/1000 benign files means saying 'benign' every time scores 90% accuracy while catching 0% of malware (0% recall) -- why precision/recall/F1 matter more than raw accuracy in security."
+      }
+    ],
+    "ctf_question": {
+      "q": "SCENARIO: You're red-teaming a company's ML-based spam filter. You don't have access to its code or weights -- only a web form where you submit an email and it tells you 'spam' or 'not spam.' You send it thousands of crafted test emails and record every response, then use those input/output pairs to train your own lookalike spam filter offline, so you can study and attack it without touching the real system again. What is this attack technique called?",
+      "answer_format": "HTBCOAE{snake_case_term}",
+      "correct": "HTBCOAE{model_stealing}",
+      "accept_also": [
+        "HTBCOAE{model_extraction}"
+      ],
+      "explanation": "This is Model Stealing / Model Extraction from the card's 'Attacker's View of an ML System' section -- querying a black-box model repeatedly to train a 'shadow model' that mimics it, so you can study/attack the clone offline."
+    },
+    "delivered_at": "2026-09-12T13:20:39.582563"
+  },
+  "history": [
+    {
+      "day": 1,
+      "title": "Introduction to Machine Learning",
+      "module": "Module 1: Fundamentals of AI",
+      "delivered_at": "2026-09-12T13:20:39.582563",
+      "graded": false,
+      "score": null
+    }
+  ]
 }
