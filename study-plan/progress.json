@@ -1,44 +1,46 @@
 {
-  "topic_cursor": 1,
-  "session_count": 1,
+  "topic_cursor": 2,
+  "session_count": 2,
   "review_every_n_sessions": 7,
   "pending_quiz": {
-    "day": 1,
+    "day": 2,
     "mode": "new_topic",
     "questions": [
       {
-        "q": "A traditional antivirus uses a rule someone wrote by hand: 'if file contains this exact byte sequence, flag as malware.' A machine-learned malware classifier works differently. What's the key difference?",
+        "q": "A security model outputs a number between 0.0 and 1.0 representing how likely a network connection is to be an attack (e.g. 0.87). Is this classification or regression, and how should it be evaluated?",
         "choices": {
-          "A": "The ML classifier is just a faster version of the same hand-written rules",
-          "B": "The ML classifier learned its own detection patterns from thousands of labeled malware/benign examples, instead of a human writing the rules",
-          "C": "The ML classifier only works on image files, never on executables",
-          "D": "There is no real difference, it's just marketing"
+          "A": "Classification, because the number is used to make a security decision",
+          "B": "Regression, because the output is a continuous number -- and it should be evaluated with accuracy/F1 exactly like classification",
+          "C": "Regression, because the output is a continuous number -- so it should be evaluated with MSE/RMSE-style metrics, not accuracy/F1",
+          "D": "Neither -- probability scores don't fit into either category"
         },
-        "correct": "B",
-        "explanation": "That's the core shift from Section 5 of the card: traditional programming = human writes rules; ML = human provides data + labels, the algorithm discovers the rules itself."
+        "correct": "C",
+        "explanation": "The card's own example lists a 0.0-1.0 risk/probability score as a regression output (continuous number), which means regression metrics (MSE, RMSE, MAE) apply -- not classification metrics like accuracy or F1."
       },
       {
-        "q": "A malware detector is tested on 1,000 files (100 malware, 900 benign). It flags 0 files as malware at all. What's true about its accuracy and its usefulness?",
+        "q": "You train a malware classifier on 10,000 files, then test its accuracy on those SAME 10,000 files. It scores 99.9%. Should you trust that number?",
         "choices": {
-          "A": "Accuracy is 0% and the model is clearly broken",
-          "B": "Accuracy is 90% (technically), but it's useless -- it caught zero real malware",
-          "C": "Accuracy is 100% because it never raised a false alarm",
-          "D": "This scenario is impossible for a real model"
+          "A": "Yes, 99.9% is 99.9% no matter how you measured it",
+          "B": "No -- testing on training data mostly measures memorization, not how the model performs on new, unseen malware",
+          "C": "No, because malware classifiers can never legitimately exceed 50% accuracy",
+          "D": "Yes, as long as the original split ratio was 80/20"
         },
         "correct": "B",
-        "explanation": "This is the exact 'accuracy can lie' trap from the card: 900/1000 benign files means saying 'benign' every time scores 90% accuracy while catching 0% of malware (0% recall) -- why precision/recall/F1 matter more than raw accuracy in security."
+        "explanation": "This is the train/test split concept: evaluating on data the model already memorized just proves it can recall answers, not that it generalizes. That's why you always hold out a separate test set it never saw during training."
       }
     ],
     "ctf_question": {
-      "q": "SCENARIO: You're red-teaming a company's ML-based spam filter. You don't have access to its code or weights -- only a web form where you submit an email and it tells you 'spam' or 'not spam.' You send it thousands of crafted test emails and record every response, then use those input/output pairs to train your own lookalike spam filter offline, so you can study and attack it without touching the real system again. What is this attack technique called?",
+      "q": "SCENARIO: You're pentesting a company's phishing-email detector -- a supervised classifier trained on labeled phishing vs. legitimate emails. You have no access to its code, but testing shows it leans heavily on suspicious keywords and link count as signals. You start rewriting your phishing emails' wording and restructuring their links -- keeping the same malicious payload -- until the model stops flagging them as phishing. What's this technique called?",
       "answer_format": "HTBCOAE{snake_case_term}",
-      "correct": "HTBCOAE{model_stealing}",
+      "correct": "HTBCOAE{feature_manipulation}",
       "accept_also": [
-        "HTBCOAE{model_extraction}"
+        "HTBCOAE{adversarial_example}",
+        "HTBCOAE{evasion_attack}",
+        "HTBCOAE{model_evasion}"
       ],
-      "explanation": "This is Model Stealing / Model Extraction from the card's 'Attacker's View of an ML System' section -- querying a black-box model repeatedly to train a 'shadow model' that mimics it, so you can study/attack the clone offline."
+      "explanation": "This is Feature Manipulation from the 'How Attackers Evade Supervised Models' section -- once you know (or infer) which features a model relies on, you can reshape your input to shift those features across the decision boundary without changing what the input actually does."
     },
-    "delivered_at": "2026-09-12T13:20:39.582563"
+    "delivered_at": "2026-09-12T08:36:45"
   },
   "history": [
     {
@@ -46,6 +48,14 @@
       "title": "Introduction to Machine Learning",
       "module": "Module 1: Fundamentals of AI",
       "delivered_at": "2026-09-12T13:20:39.582563",
+      "graded": false,
+      "score": null
+    },
+    {
+      "day": 2,
+      "title": "Supervised Learning Algorithms (Overview)",
+      "module": "Module 1: Fundamentals of AI",
+      "delivered_at": "2026-09-12T08:36:45",
       "graded": false,
       "score": null
     }
